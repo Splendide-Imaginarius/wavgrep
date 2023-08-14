@@ -21,3 +21,5 @@ WavGrep is free software: you can redistribute it and/or modify it under the ter
 WavGrep is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with WavGrep. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+
+This project is not derived from any of the various files on GitHub Gist named "wavgrep.py". I didn't notice that those Gists existed until after I had created this project. Those Gists appear to be abandoned and only support Python 2, so I don't think confusion is likely.
