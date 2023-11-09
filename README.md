@@ -6,6 +6,26 @@ If you have a small audio file (perhaps ripped from a game or a movie, perhaps n
 
 In addition to finding exact matches, WavGrep can sometimes surface related-but-not-identical tracks. For example, it can sometimes find an acoustic mix of a rock track.
 
+## Installation
+
+First, you'll need to install [CrossLooper](https://github.com/Splendide-Imaginarius/crosslooper) according to its installation instructions.
+
+Once you've done that, to install WavGrep via pip, do this from the `wavgrep` repo directory:
+
+```
+pip install --user .
+```
+
+## Usage
+
+The following command will search `./library/` for the top 15 most similar tracks to `./sample.ogg`, with start position 5s and length 10s:
+
+```
+wavgrep --start 5 --len 10 --count 15 --in-dir ./library ./sample.ogg
+```
+
+If you leave off any of the options, the defaults are start position 15s, length 15s, count 10 (use count 0 to show all matches), and the current working directory.
+
 ## Related Projects
 
 * [CrossLooper](https://github.com/Splendide-Imaginarius/crosslooper)

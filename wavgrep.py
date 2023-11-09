@@ -5,6 +5,9 @@ from tqdm import tqdm
 
 import crosslooper
 
+__version__ = "1.0.1"
+__author__ = """Splendide Imaginarius"""
+
 def cli_parser(**ka):
     parser = crosslooper.cli_parser(**ka)
 
